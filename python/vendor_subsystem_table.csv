@@ -1,0 +1,5 @@
+vendor,.mailmap,Documentation,MAINTAINERS,Makefile,accel,acpi,arch,base,block,bluetooth,cpufreq,crypto,dma-buf,fs,gpu,idle,include,init,io_uring,iommu,kernel,lib,mm,net,nvme,pinctrl,ptp,rapidio,regulator,rust,s390,scripts,scsi,security,spi,tools,ufs
+AMD,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Google,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,7,0,0,0,0,0,0,0,2,0,0,0,0,0
+Intel,0,0,1,0,0,7,3,0,0,0,1,0,0,0,1,1,3,0,0,0,0,0,0,28,0,0,0,0,0,4,0,0,0,0,0,1,0
+Other,2,8,7,3,2,8,90,1,7,2,2,1,5,67,13,1,19,4,12,2,2,2,9,130,2,61,1,2,1,11,1,4,4,2,7,14,1
