@@ -17,3 +17,5 @@ build/
 
 __pycache__
 node_modules/
+
+linux-90d/
