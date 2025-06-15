@@ -30,7 +30,7 @@ summarizer = kit_repo.get_summarizer(config=openai_custom_config)
 
 
 repo_git = GitRepo(REPO_PATH)
-since = datetime.now() - timedelta(days=90)
+since = datetime.now() - timedelta(days=14)
 commits = [c for c in repo_git.iter_commits('master') if datetime.fromtimestamp(c.committed_date) >= since]
 
 def classify_vendor(email):
@@ -65,4 +65,6 @@ df = pd.DataFrame(records)
 table = df.groupby(["vendor","subsystem"]).size().unstack(fill_value=0)
 rich.print(table)
 print(table.columns)
-table.to_csv(current_dir / "vendor_subsystem_table.csv")
+# table.to_csv(current_dir / "vendor_subsystem_table.csv")
+# Store as Parquet for efficient storage and faster read/write
+# table.to_parquet(current_dir / "vendor_subsystem_table.parquet")
