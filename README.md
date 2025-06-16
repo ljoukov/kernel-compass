@@ -16,4 +16,5 @@ Use code analysis tools to produce stats DB (takes some 4 hours) and then Enrich
 
 ## Winner of MCP Hackathon w/ Featureform and Friends
 
+[MCP Hackathon w/ Featureform and Friends](https://lu.ma/qjvixbq0?tk=LvdEod)
 ![image](https://github.com/user-attachments/assets/b06825e5-416b-479a-979a-76ad39ed58fc)
